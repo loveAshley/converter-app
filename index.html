@@ -1,0 +1,29 @@
+<html>
+
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>
+            Converter App
+        </title>
+        <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <h1>Converter App</h1>
+        <div class="card">
+            <input type="text" id="convertTxt">
+            <select id="type">
+            <option value ="CADCNY">CAD to CNY</option>
+            <option value ="CADUSD">CAD to USD</option>
+        </select>
+            <button id="convertBtn" class="btn">Convert</button>
+        </div>
+        <label id="result" class="result"></label>
+    </body>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.0.min.js"></script>
+    <script type="text/javascript" src="app.js"></script>
+
+</html>
